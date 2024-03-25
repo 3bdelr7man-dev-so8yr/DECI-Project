@@ -33,5 +33,5 @@ The KidCalc Dashboard Page serves as the main interface for users to interact wi
 | Responsive Design       | Ensures optimal viewing and interaction across different devices.                                        |
 
 > This Repository offers two exciting projects that cater to different aspects of technology learning and exploration. Whether you're interested in staying updated on the latest tech trends or practicing math skills in a fun and interactive way, these projects have something for everyone!
-
+## This project made by Abdelrahman Mohamed Abd El-Hafez
 # Thank you for reading!
