@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidCalc</title>
+    <link rel="stylesheet" href="assets/css/theme1.css" id="theme-link">
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">
+        <h1 class="logo">Kid<span class="logo-span">Calc</span></h1>
+    </div>
+    <h1 class="welcome">Welcome <strong><span id="kid-name"></span></strong></h1>
+    <div class="information">
+        <img class="avatar" src="https://cdn.icon-icons.com/icons2/1736/PNG/512/4043279-afro-avatar-male-man_113244.png" alt="">
+        <h2>Kid Information</h2>
+        <p><strong>Kid ID:</strong> <span id="kid-id"></span></p>
+        <p><strong>Age:</strong> <span id="kid-age"></span></p>
+        <p><strong>Score:</strong> <span id="kid-score"></span></p>
+    </div>
+    <div class="kidcalc">
+        <div class="math-expression"></div>
+        <div class="buttons">
+            <div class="number-buttons">
+                <button class="number-btn">0</button>
+                <button class="number-btn">1</button>
+                <button class="number-btn">2</button>
+                <button class="number-btn">3</button>
+                <button class="number-btn">4</button>
+                <button class="number-btn">5</button>
+                <button class="number-btn">6</button>
+                <button class="number-btn">7</button>
+                <button class="number-btn">8</button>
+                <button class="number-btn">9</button>
+            </div>
+            <div class="operator-buttons">
+                <button class="operator-btn">+</button>
+                <button class="operator-btn">-</button>
+                <button class="operator-btn">&gt;</button>
+                <button class="operator-btn">&lt;</button>
+                <button class="operator-btn">=</button>
+            </div>
+        </div>
+        <div class="answer">
+            <input type="text" class="answer-input" placeholder="Enter your answer">
+            <button class="submit-btn">Submit</button>
+        </div>
+        <div class="results-box"></div>
+        <button class="clear-btn">Clear</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

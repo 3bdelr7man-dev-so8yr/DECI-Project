@@ -1,0 +1,110 @@
+/* My Pallete */
+:root {
+    --indigo-dye: #133c55ff;
+    --cerulean: #00779eff;
+    --picton-blue: #21a6d8ff;
+    --aureolin: rgb(252, 173, 56);
+    --bittersweet: #ee6352ff;
+    --wenge: #6f5d5aff;
+    --dim-gray: #686868ff;
+    --verdigris: #70a9a1ff;
+    --caribbean-current: #38686aff;
+    --black: #020300ff;
+    --light: rgb(255, 230, 223);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #70a9a1ff;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://t3.ftcdn.net/jpg/06/33/58/04/360_F_633580478_nnmZcvm8ABzTKljmjTko4Sh7qp2H1rX3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-span {
+    color: #ee6352ff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(255, 248, 238);
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 56px;
+    color: #133c55ff;
+}
+
+.theme-selector {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-form h2 {
+    text-align: center;
+    font-size: 24px;
+    color: var(--indigo-dye);
+    margin-bottom: 20px;
+    margin-top:-30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--indigo-dye);
+    font-size: 19px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover {
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+button.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #464b94;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button.btn:hover {
+    background-color: var(--bittersweet);
+    box-shadow: 0px 0px 10px var(--bittersweet);
+}

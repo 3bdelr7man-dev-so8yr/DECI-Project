@@ -1,0 +1,157 @@
+/* My Pallete */
+:root {
+    --indigo-dye: #133c55ff;
+    --cerulean: #00779eff;
+    --picton-blue: #21a6d8ff;
+    --aureolin: rgb(252, 173, 56);
+    --bittersweet: #ee6352ff;
+    --wenge: #6f5d5aff;
+    --dim-gray: #686868ff;
+    --verdigris: #70a9a1ff;
+    --caribbean-current: #38686aff;
+    --black: #020300ff;
+    --light: rgb(255, 230, 223);
+}
+
+.avatar {
+    width: 120px;
+    height: auto;
+    margin: 7px 38%;
+}
+
+.logo-span {
+    color: #ee6352ff;
+}
+.logo h1 {
+    text-align: center;
+    font-size: 56px;
+    color: #133c55ff;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #70a9a1ff;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://t3.ftcdn.net/jpg/06/33/58/04/360_F_633580478_nnmZcvm8ABzTKljmjTko4Sh7qp2H1rX3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(255, 248, 238);
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.kidcalc {
+    text-align: center;
+}
+
+.math-expression {
+    font-size: 24px;
+    color: var(--indigo-dye);
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.number-buttons,
+.operator-buttons {
+    margin-right: 10px;
+}
+
+.number-btn,
+.operator-btn {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--cerulean);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.number-btn:hover,
+.operator-btn:hover {
+    background-color: var(--picton-blue);
+}
+
+.answer {
+    margin-bottom: 20px;
+}
+
+.answer-input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+.answer-input:hover {
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #464b94;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: rgb(13, 190, 102);
+    box-shadow: 0px 0px 10px rgb(13, 190, 102);
+}
+
+.results-box {
+    font-size: 18px;
+    color: var(--indigo-dye);
+    margin-bottom: 20px;
+}
+
+.clear-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #464b94;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.clear-btn:hover {
+    background-color: var(--bittersweet);
+    box-shadow: 0px 0px 10px var(--bittersweet);
+}
+
+.welcome {
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    color: var(--indigo-dye);
+}

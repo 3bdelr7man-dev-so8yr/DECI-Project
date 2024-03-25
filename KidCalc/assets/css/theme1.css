@@ -1,0 +1,156 @@
+/* My Pallete */
+:root {
+    --color1: #D9ED92;
+    --color2: #D8F3DC;
+    --color3: #B7E4C7;
+    --color4: #95D5B2;
+    --color5: #74C69D;
+    --color6: #52B788;
+    --color7: #40916C;
+    --color8: #2D6A4F;
+    --color9: #1B4332;
+    --color0: #081C15;
+    --color11: rgb(255, 230, 223);
+}
+
+.avatar {
+    width: 120px;
+    height: auto;
+    margin: 7px 38%;
+}
+
+.logo-span {
+    color: var(--color7);
+}
+.logo h1 {
+    text-align: center;
+    font-size: 56px;
+    color: var(--color9);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/11/forest_kids_game_boreal_forest/24588599-1-eng-GB/Forest_Kids_game_boreal_forest_article.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: var(--color2);
+    border-radius: 30px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.534);
+}
+
+.kidcalc {
+    text-align: center;
+}
+
+.math-expression {
+    font-size: 24px;
+    color: var(--color8);
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.number-buttons,
+.operator-buttons {
+    margin-right: 10px;
+}
+
+.number-btn,
+.operator-btn {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--color7);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.number-btn:hover,
+.operator-btn:hover {
+    background-color: var(--color6);
+}
+
+.answer {
+    margin-bottom: 20px;
+}
+
+.answer-input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-color: #e9fff0;
+}
+
+.answer-input:hover {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color7);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: rgb(13, 190, 102);
+    box-shadow: 0px 0px 10px rgb(13, 190, 102);
+}
+
+.results-box {
+    font-size: 18px;
+    color: var(--color9);
+    margin-bottom: 20px;
+}
+
+.clear-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color8);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.clear-btn:hover {
+    background-color: var(--color7);
+    box-shadow: 0px 0px 10px var(--color2);
+}
+
+.welcome {
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    color: var(--color9);
+}

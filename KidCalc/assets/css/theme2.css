@@ -1,0 +1,159 @@
+/* My Pallete */
+:root {
+    --color1: #D9ED92;
+    --color2: #CAF0F8;
+    --color3: #ADE8F4;
+    --color4: #90E0EF;
+    --color5: #48CAE4;
+    --color6: #00B4D8;
+    --color7: #0096C7;
+    --color8: #0077B6;
+    --color9: #023E8A;
+    --color0: #03045E;
+    --color11: rgb(255, 230, 223);
+}
+
+.avatar {
+    width: 120px;
+    height: auto;
+    margin: 7px 38%;
+}
+
+.information{
+    color: #03045E;
+}
+.logo-span {
+    color: var(--color7);
+}
+.logo h1 {
+    text-align: center;
+    font-size: 56px;
+    color: var(--color9);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://librarianisontheloose.files.wordpress.com/2014/07/img_0219.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: var(--color2);
+    border-radius: 30px;
+    box-shadow: 0 0 60px rgb(0, 23, 58);
+}
+
+.kidcalc {
+    text-align: center;
+}
+
+.math-expression {
+    font-size: 24px;
+    color: var(--color8);
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.number-buttons,
+.operator-buttons {
+    margin-right: 10px;
+}
+
+.number-btn,
+.operator-btn {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--color7);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.number-btn:hover,
+.operator-btn:hover {
+    background-color: var(--color6);
+}
+
+.answer {
+    margin-bottom: 20px;
+}
+
+.answer-input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-color: #e9fff0;
+}
+
+.answer-input:hover {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color7);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: rgb(13, 190, 102);
+    box-shadow: 0px 0px 10px rgb(13, 190, 102);
+}
+
+.results-box {
+    font-size: 18px;
+    color: var(--color9);
+    margin-bottom: 20px;
+}
+
+.clear-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color8);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.clear-btn:hover {
+    background-color: var(--color7);
+    box-shadow: 0px 0px 10px var(--color2);
+}
+
+.welcome {
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    color: var(--color9);
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub blog</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <h1><span>TechHub</span> Blog</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#articles-section">Blog Posts</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="auth-btn">Sign Up</button>
+                <button class="auth-btn2">Sign In</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="image">
+                <img src="https://d27fp5ulgfd7w2.cloudfront.net/wp-content/uploads/2019/01/08160759/tech-blogs-1.jpg" alt="TechHub blog Image">
+            </div>
+            <div class="hero-content">
+                <h1>Discover the Future of Tech at <span class="brand-span">TechHub</span></h1>
+                <p>Discover the newest tech trends, news, and insights. Stay ahead with the latest in technology.</p>
+                <div class="buttons">
+                    <a href="#articles-section" class="btn-primary">Explore Blog</a>
+                    <a href="#contact" class="btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="articles-section" class="articles">
+        <div class="container">
+            <h1>Latest Articles</h1>
+            <p>Stay updated with the latest articles in technology.</p>
+            <div class="categories">
+                <ul>
+                    <li><a href="#">Artificial Intelligence & Machine Learning</a></li>
+                    <li><a href="#">Robotics</a></li>
+                    <li><a href="#">Mobile Technology</a></li>
+                    <li><a href="#">Operating Systems</a></li>
+                </ul>
+            </div>
+            <div class="article-cards">
+                <a href="blog/blog-1.html">
+                    <div class="article-card">
+                        <img src="https://www.apple.com/newsroom/images/product/os/macos/standard/apple_macos-bigsur_redesignedapps_06222020.jpg.og.jpg?202402281050" alt="Article Image">
+                        <h3>Mastering macOS</h3>
+                        <p class="category">Operating Systems</p>
+                        <p class="description">Discover the latest features, updates, and tips for getting the most out of your Mac with our comprehensive guide to macOS. </p>
+                        <button href="blog/blog-1.html" class="btn">Read More</button>
+                    </div>
+                </a>
+                <div class="article-card">
+                    <img src="https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2023/07/13220529/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities.jpeg" alt="Article Image">
+                    <h3>Artificial Intelligence</h3>
+                    <p class="category">AI</p>
+                    <p class="description">In this blog post, we delve into the fascinating world of Artificial Intelligence (AI) to uncover its power and potential.</p>
+                    <button href="#" class="btn">Read More</button>
+                </div>
+                <div class="article-card">
+                    <img src="https://www.techmango.net/wp-content/uploads/2022/04/mobile-app-development.png" alt="Article Image">
+                    <h3>Mobile Apps and Development</h3>
+                    <p class="category">Mobile Technology</p>
+                    <p class="description">Explore the dynamic world of mobile app development with our latest blog post. Explore latest trends of mobile app creation</p>
+                    <button href="#" class="btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form" class="contact-form" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TechHub blog</p>
+        </div>
+    </footer>
+</body>
+</html>
