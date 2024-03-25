@@ -12,9 +12,7 @@ The TechHub Blog is a platform dedicated to providing informative and engaging c
 |-------------------------|----------------------------------------------------------------------------------------------------------|
 | Homepage                | The homepage of the TechHub Blog serves as the main gateway to the content available on the platform.    |
 | Article Categories      | Organizes content into various categories, making it easy for users to navigate.                         |
-| Article Listings        | Displays a list of articles relevant to each category or the homepage.                                    |
 | Article Pages           | Dedicated pages displaying the full content of articles.                                                  |
-| Search Functionality    | Allows users to search for specific articles, topics, or keywords.                                         |
 | Author Profiles         | Provides information about guest authors or contributors.                                                   |
 | Responsive Design       | Adapts to different screen sizes and devices for optimal viewing.                                          |
 
