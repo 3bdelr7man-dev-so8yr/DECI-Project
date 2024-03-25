@@ -1,4 +1,4 @@
-# Welcome to this Repository! 🚀
+# <div align="center">Welcome to my Term 1 Final Project Repository! 🚀</div>
 
 This repository hosts two exciting projects: the KidCalc Application and the TechHub Blog. These projects showcase our team's dedication to creating innovative solutions and providing valuable content in the technology domain.
 
